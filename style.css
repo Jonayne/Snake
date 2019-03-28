@@ -1,0 +1,48 @@
+#score {
+  font-family : 'Courier New', Courier, monospace;
+  font-size   : 35px;
+  font-weight : bold;
+  color       : black;
+  text-align  : center;
+
+  background-color: teal;
+  width: 960px;
+  height: 70px;
+  position: relative;
+}
+
+#msg_fin {
+  background: yellow;
+  width: 500px;
+  height: 100px;
+
+  position: absolute;
+
+  left:240px;
+  top:300px;
+
+  font-size   : 35px;
+  color       : rgb(247, 0, 255);
+  text-align  : center;
+  
+  display: none;
+
+}
+
+#casillas {
+  background-color: rgb(65, 106, 65);
+  width: 960px;
+  height: 720px;
+  position: relative;
+}
+
+.casillas_c{
+  box-sizing: border-box;
+  border-top: 1px solid rgba(148, 189, 144, 0.719);
+  border-left: 1px solid rgba(148, 189, 144, 0.719);
+  border-right: 1px solid rgba(148, 189, 144, 0.719);
+  border-bottom: 1px solid rgba(148, 189, 144, 0.719);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}
